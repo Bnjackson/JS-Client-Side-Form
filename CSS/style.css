@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 html {
@@ -15,15 +17,66 @@ html {
 
 .container {
     position: absolute;
-    width: 50%;
+    width: 20%;
     margin: 0 auto;
     display: block;
     background-color: white;
-    padding: 15px;
     border: 1px black solid;
     border-radius: 5px;
     box-shadow: 0.5px 1px;
     top: 30%;
     left: 0;
     right: 0;
+}
+
+.header {
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    background-color: #eeeeee;
+    width: 100%;
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Form*/
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.error {
+    margin-bottom: 20px;
+
+}
+
+.btn-container {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.submit-btn {
+    text-decoration: none;
+    background-color: #800080;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    color: #fff;
 }
